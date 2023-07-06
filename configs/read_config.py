@@ -15,7 +15,7 @@ def read_config():
     shipping_mail = config['mail_cf']
 
     ## Call config of a MS Graph API
-    step_app = config['Azure_App']
+    Azure_app = config['Azure_App']
 
 __all__ = ['read_config']
 
