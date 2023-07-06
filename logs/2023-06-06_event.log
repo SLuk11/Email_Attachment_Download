@@ -1,0 +1,10 @@
+2023-06-06 16:39:56 customer_receive_process process start
+2023-06-06 16:39:56 ./mail Exploring process: Done
+2023-06-06 16:39:58 Example Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-06-06 16:39:58 sheet_Update Plan Cleaning process: Done
+2023-06-06 16:40:41 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-06-06 16:40:42 Example Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-06-06 16:40:42 sheet_PF Cleaning process: Done
+2023-06-06 16:40:43 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-06-06 16:40:43 Move file Example Loading Plan.xlsx to ./mail/success Done
+2023-06-06 16:40:43 customer_receive_process process end in 47.1067 seconds

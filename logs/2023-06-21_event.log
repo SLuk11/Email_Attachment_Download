@@ -1,0 +1,38 @@
+2023-06-21 11:07:32 bulk_mail: process start
+2023-06-21 11:07:37 Mark_read_email: Done
+2023-06-21 11:07:42 Mark_read_email: Done
+2023-06-21 11:07:42 Reading_email_process: Done
+2023-06-21 11:07:42 create_data_json: Done
+2023-06-21 11:07:42 bulk_mail: process end in 10.2498 seconds
+2023-06-21 11:08:06 bulk_mail: process start
+2023-06-21 11:08:08 Reading_email_process: Done
+2023-06-21 11:08:08 create_data_json: Do NOT have attachment data
+2023-06-21 11:08:08 bulk_mail: process end in 1.4920 seconds
+2023-06-21 11:08:28 bulk_mail: process start
+2023-06-21 11:08:29 Reading_email_process: Done
+2023-06-21 11:08:29 create_data_json: Do NOT have attachment data
+2023-06-21 11:08:29 bulk_mail: process end in 1.5040 seconds
+2023-06-21 11:08:46 bulk_mail: process start
+2023-06-21 11:08:51 Mark_read_email: Done
+2023-06-21 11:08:51 Reading_email_process: Done
+2023-06-21 11:08:51 create_data_json: Done
+2023-06-21 11:08:51 bulk_mail: process end in 5.0784 seconds
+2023-06-21 11:15:01 bulk_mail: process start
+2023-06-21 11:15:06 Mark_read_email: Done
+2023-06-21 11:15:10 Mark_read_email: Done
+2023-06-21 11:15:10 Reading_email_process: Done
+2023-06-21 11:15:10 create_data_json: Done
+2023-06-21 11:15:10 bulk_mail: process end in 8.9042 seconds
+2023-06-21 15:12:53 bulk_mail: process start
+2023-06-21 15:12:57 Mark_read_email: Done
+2023-06-21 15:13:01 Mark_read_email: Done
+2023-06-21 15:13:01 Reading_email_process: Done
+2023-06-21 15:13:01 create_data_json: Done
+2023-06-21 15:13:01 bulk_mail: process end in 7.5656 seconds
+2023-06-21 15:30:39 bulk_mail: process start
+2023-06-21 15:30:44 Mark_read_email: Done
+2023-06-21 15:30:48 Mark_read_email: Done
+2023-06-21 15:30:50 Mark_read_email: Done
+2023-06-21 15:30:50 Reading_email_process: Done
+2023-06-21 15:30:50 create_data_json: Done
+2023-06-21 15:30:50 bulk_mail: process end in 11.4280 seconds

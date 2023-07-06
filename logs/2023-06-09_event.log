@@ -1,0 +1,37 @@
+2023-06-09 08:32:37 customer_receive_process process start
+2023-06-09 08:32:37 ./mail Exploring process: Done
+2023-06-09 08:32:39 Loading plan P6W4.xlsx_sheet_Update Plan Reading process: Done
+2023-06-09 08:32:39 sheet_Update Plan Cleaning process: Done
+2023-06-09 08:32:41 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-06-09 08:32:41 Loading plan P6W4.xlsx_sheet_PF Reading process: Done
+2023-06-09 08:32:41 sheet_PF Cleaning process: Done
+2023-06-09 08:32:42 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-06-09 08:32:43 Move file Loading plan P6W4.xlsx to ./mail/success Done
+2023-06-09 08:32:43 Loading plan P6W4_Other market.xlsx_sheet_Update Plan Reading process: Done
+2023-06-09 08:32:43 sheet_Update Plan Cleaning process: Done
+2023-06-09 08:32:44 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-06-09 08:32:44 Loading plan P6W4_Other market.xlsx_sheet_PF Reading process: Done
+2023-06-09 08:32:44 sheet_PF Cleaning process: Done
+2023-06-09 08:32:46 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-06-09 08:32:46 Move file Loading plan P6W4_Other market.xlsx to ./mail/success Done
+2023-06-09 08:32:46 customer_receive_process process end in 9.2728 seconds
+2023-06-09 09:48:57 customer_receive_process process start
+2023-06-09 09:48:57 ./mail Exploring process: Done
+2023-06-09 09:48:59 Example Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-06-09 09:48:59 sheet_Update Plan Cleaning process: Done
+2023-06-09 09:49:01 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-06-09 09:49:01 Example Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-06-09 09:49:01 sheet_PF Cleaning process: time data '31.05.2023' does not match format '%d/%m/%Y' (match)
+2023-06-09 09:49:02 Batch_no_1e74f122-aa1a-41f7-927e-3e1be963ce08 Delete row process: Done
+2023-06-09 09:49:02 Move file Example Loading Plan.xlsx to ./mail/fail Done
+2023-06-09 09:49:02 customer_receive_process process end in 4.3970 seconds
+2023-06-09 09:50:50 customer_receive_process process start
+2023-06-09 09:50:50 ./mail Exploring process: Done
+2023-06-09 09:50:55 Example Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-06-09 09:50:55 sheet_Update Plan Cleaning process: Done
+2023-06-09 09:50:55 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-06-09 09:50:56 Example Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-06-09 09:55:03 sheet_PF Cleaning process: time data '2023-05-31' does not match format '%d/%m/%Y' (match)
+2023-06-09 09:55:04 Batch_no_dbcefb86-0a43-4a5e-9b5d-b3dd6151e508 Delete row process: Done
+2023-06-09 09:55:04 Move file Example Loading Plan.xlsx to ./mail/fail Done
+2023-06-09 09:55:04 customer_receive_process process end in 254.0777 seconds

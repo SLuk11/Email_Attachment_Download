@@ -1,0 +1,24 @@
+{
+  "mail_cf": {
+    "sender_email_lsit": ["dennapa.nilpayak@ctibkk.com"],
+    "subject_key": "mars_",
+    "downloads_dir": "./downloads",
+    "data_dir": "./data",
+    "log_dir": "./logs"
+  },
+
+    "Step_App": {
+      "app_id": "ab966ba5-994c-4ed9-b650-afa93ecfc72b",
+      "tenant_id": "b464b0e9-a443-401a-a885-73ff9ff370d1",
+      "app_secret": "2qt8Q~dBocZ4fI8bCF_61mrmTMz44mhNILUlecBs",
+      "app_scope": ["https://graph.microsoft.com/.default"],
+      "mail_user": "sysinfo@stepinnovation365.onmicrosoft.com",
+      "api_endpoint": "https://graph.microsoft.com/v1.0",
+      "request_params": {
+        "top": 100,
+      "select": "id, isRead, from, subject, hasAttachments, lastModifiedDateTime",
+      "filter": "isRead eq false",
+        "count": "true"
+      }
+    }
+}

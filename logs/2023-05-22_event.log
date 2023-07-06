@@ -1,0 +1,50 @@
+2023-05-22 15:50:59 customer_receive_process process start
+2023-05-22 15:50:59 ./mail Exploring process: Done
+2023-05-22 15:51:00 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-22 15:51:00 sheet_Update Plan Cleaning process: Done
+2023-05-22 15:51:02 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-22 15:51:02 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-22 15:51:02 sheet_PF Cleaning process: Material
+2023-05-22 15:51:03 Batch_no_716340b7-0630-48ea-8c18-97b9749ba981 Delete row process: Done
+2023-05-22 15:51:03 Move file example_Loading_Plan_fail.xlsx to ./mail/fail Done
+2023-05-22 15:51:03 Process_example_Loading_Plan_fail.xlsx_fail mave example_Loading_Plan_fail.xlsx to fail folder
+2023-05-22 15:51:03 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-22 15:51:03 sheet_Update Plan Cleaning process: Done
+2023-05-22 15:51:03 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-22 15:51:03 example_Loading_Plan_success.xlsx_sheet_PF Reading process: Done
+2023-05-22 15:51:03 sheet_PF Cleaning process: Done
+2023-05-22 15:51:03 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-22 15:51:03 Move file example_Loading_Plan_success.xlsx to ./mail/success Done
+2023-05-22 15:51:03 Process_example_Loading_Plan_success.xlsx_success move example_Loading_Plan_success.xlsx to success folder
+2023-05-22 15:51:03 customer_receive_process process end in 4.4848 seconds
+2023-05-22 15:59:40 customer_receive_process process start
+2023-05-22 15:59:41 download_attachment Done
+2023-05-22 15:59:41 ./mail Exploring process: Done
+2023-05-22 15:59:41 customer_receive_process process end in 0.9529 seconds
+2023-05-22 16:04:31 customer_receive_process process start
+2023-05-22 16:04:32 download_attachment Done
+2023-05-22 16:04:32 ./mail Exploring process: Done
+2023-05-22 16:04:32 ./mail there have no .xlsx files in folder
+2023-05-22 16:04:32 customer_receive_process process end in 1.0303 seconds
+2023-05-22 16:10:41 customer_receive_process process start
+2023-05-22 16:10:43 download_attachment Done
+2023-05-22 16:10:43 ./mail Exploring process: Done
+2023-05-22 16:10:43 ./mail there have no .xlsx files in folder
+2023-05-22 16:10:43 customer_receive_process process end in 1.8058 seconds
+2023-05-22 16:17:00 customer_receive_process process start
+2023-05-22 16:17:02 download_attachment Done
+2023-05-22 16:17:02 ./mail Exploring process: Done
+2023-05-22 16:17:02 ./mail there have no .xlsx files in folder
+2023-05-22 16:17:02 customer_receive_process process end in 1.5035 seconds
+2023-05-22 16:52:23 customer_receive_process process start
+2023-05-22 16:52:29 download_attachment Done
+2023-05-22 16:52:29 ./mail Exploring process: Done
+2023-05-22 16:52:29 2023-05-22_16-52-26_Loading plan P6W1 (2).xlsx_sheet_Update Plan Reading process: Done
+2023-05-22 16:52:29 sheet_Update Plan Cleaning process: Done
+2023-05-22 16:53:12 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-22 16:53:12 2023-05-22_16-52-26_Loading plan P6W1 (2).xlsx_sheet_PF Reading process: Done
+2023-05-22 16:53:12 sheet_PF Cleaning process: Done
+2023-05-22 16:53:13 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-22 16:53:14 Move file 2023-05-22_16-52-26_Loading plan P6W1 (2).xlsx to ./mail/success Done
+2023-05-22 16:53:14 customer_receive_process process end in 50.9955 seconds
+2023-05-22 16:56:18 Batch_no_42DCFF24-6464-4243-BFD7-A0003117CAE2 Delete row process: Done

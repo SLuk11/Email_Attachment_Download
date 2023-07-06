@@ -1,0 +1,17 @@
+2023-05-10 20:11:17 customer_receive_process process start
+2023-05-10 20:11:18 ./Download Exploring process: DONE
+2023-05-10 20:11:20 example_Loading Plan.xlsx Create batch ID: Done
+2023-05-10 20:11:20 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-10 20:11:20 sheet_Update Plan Cleaning process: Done
+2023-05-10 20:11:21 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-10 20:11:21 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-10 20:11:21 sheet_PF Cleaning process: Done
+2023-05-10 20:11:23 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-10 20:11:23 Process_{}_success mave example_Loading Plan.xlsx to success folder
+2023-05-10 20:21:23 customer_receive_process process start
+2023-05-10 20:21:23 ./Download Exploring process: DONE
+2023-05-10 20:21:23 ./Download Do not have any file to read
+2023-05-10 20:22:58 customer_receive_process process start
+2023-05-10 20:22:58 ./Download Exploring process: DONE
+2023-05-10 20:22:58 ./Download Do not have any file to read
+2023-05-10 20:22:58 customer_receive_process process end

@@ -1,0 +1,184 @@
+2023-05-11 13:05:03 customer_receive_process process start
+2023-05-11 13:05:04 ./Download Exploring process: Done
+2023-05-11 13:05:05 example_Loading Plan.xlsx Create batch ID: Done
+2023-05-11 13:05:05 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:05:05 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:05:06 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:05:07 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:05:07 sheet_PF Cleaning process: Done
+2023-05-11 13:05:08 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 13:05:08 Process_example_Loading Plan.xlsx_success move example_Loading Plan.xlsx to success folder
+2023-05-11 13:05:08 customer_receive_process process end
+2023-05-11 13:08:26 customer_receive_process process start
+2023-05-11 13:08:27 ./Download Exploring process: Done
+2023-05-11 13:08:27 example_Loading_Plan_fail.xlsx Create batch ID: Done
+2023-05-11 13:08:27 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:08:27 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:08:28 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:08:29 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:08:29 sheet_PF Cleaning process: Done
+2023-05-11 13:08:29 SQL_rcv_customer_invoice_table Insert to SQL process: "['Material'] not in index"
+2023-05-11 13:08:29 Process_example_Loading_Plan_fail.xlsx_success move example_Loading_Plan_fail.xlsx to success folder
+2023-05-11 13:08:29 customer_receive_process process end
+2023-05-11 13:13:10 customer_receive_process process start
+2023-05-11 13:13:10 ./Download Exploring process: Done
+2023-05-11 13:13:10 example_Loading_Plan_fail.xlsx Create batch ID: Done
+2023-05-11 13:13:11 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:13:11 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:13:12 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:13:12 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:13:12 sheet_PF Cleaning process: Done
+2023-05-11 13:13:13 Batch_no_74183fc2-9114-4f68-9709-fd529582f373 Delete row process: Done
+2023-05-11 13:13:13 Process_example_Loading_Plan_fail.xlsx_fail mave example_Loading_Plan_fail.xlsx to fail folder
+2023-05-11 13:13:13 customer_receive_process process end
+2023-05-11 13:27:13 customer_receive_process process start
+2023-05-11 13:27:14 ./Download Exploring process: Done
+2023-05-11 13:27:14 example_Loading_Plan_fail.xlsx Create batch ID: Done
+2023-05-11 13:27:14 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:27:14 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:27:16 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:27:16 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:27:16 sheet_PF Cleaning process: Done
+2023-05-11 13:27:17 Batch_no_8801496a-73e1-4a4c-a96a-22b22db73a7d Delete row process: Done
+2023-05-11 13:27:17 Process_example_Loading_Plan_fail.xlsx_fail mave example_Loading_Plan_fail.xlsx to fail folder
+2023-05-11 13:27:17 customer_receive_process process end
+2023-05-11 13:30:42 customer_receive_process process start
+2023-05-11 13:30:42 ./Download Exploring process: Done
+2023-05-11 13:30:42 example_Loading_Plan_fail.xlsx Create batch ID: Done
+2023-05-11 13:30:43 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:30:43 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:30:44 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:30:44 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:30:44 sheet_PF Cleaning process: Done
+2023-05-11 13:30:44 Process_example_Loading_Plan_fail.xlsx "['Material'] not in index"
+2023-05-11 13:30:45 Batch_no_8c1eca5d-07f1-4420-9635-b7455877e520 Delete row process: Done
+2023-05-11 13:30:45 Process_example_Loading_Plan_fail.xlsx_fail mave example_Loading_Plan_fail.xlsx to fail folder
+2023-05-11 13:30:45 customer_receive_process process end
+2023-05-11 13:53:09 customer_receive_process process start
+2023-05-11 13:53:09 ./Download Exploring process: Done
+2023-05-11 13:53:09 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:53:09 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:53:10 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:53:10 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:53:10 sheet_PF Cleaning process: Done
+2023-05-11 13:53:12 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 13:53:12 Process_example_Loading Plan.xlsx_success move example_Loading Plan.xlsx to success folder
+2023-05-11 13:53:12 customer_receive_process process end
+2023-05-11 13:56:16 customer_receive_process process start
+2023-05-11 13:56:16 ./Download Exploring process: Done
+2023-05-11 13:56:16 example_Loading Plan.xlsx Create batch ID: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'batch_noa'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO rcv_customer_batch (batch_noa) VALUES (?)]
+[parameters: (UUID('14d26b31-2227-41e8-a1f4-79169b1b666b'),)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-05-11 13:56:17 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 13:56:17 sheet_Update Plan Cleaning process: Done
+2023-05-11 13:56:18 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 13:56:18 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-11 13:56:18 sheet_PF Cleaning process: Done
+2023-05-11 13:56:19 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 13:56:19 Process_example_Loading Plan.xlsx_success move example_Loading Plan.xlsx to success folder
+2023-05-11 13:56:19 customer_receive_process process end
+2023-05-11 13:57:35 Batch_no_ Delete row process: Done
+2023-05-11 13:57:56 Batch_no_NULL Delete row process: Done
+2023-05-11 14:05:21 customer_receive_process process start
+2023-05-11 14:05:21 ./Download Exploring process: Done
+2023-05-11 14:05:21 ./Download Do not have any file to read
+2023-05-11 14:05:21 customer_receive_process process end
+2023-05-11 14:06:02 customer_receive_process process start
+2023-05-11 14:06:02 ./Download Exploring process: Done
+2023-05-11 14:06:02 example_Loading Plan.xlsx Create batch ID: Done
+2023-05-11 14:06:03 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 14:06:03 sheet_Update Plan Cleaning process: Done
+2023-05-11 14:06:04 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 14:06:04 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-11 14:06:04 sheet_PF Cleaning process: Done
+2023-05-11 14:06:06 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 14:06:06 Process_example_Loading Plan.xlsx_success move example_Loading Plan.xlsx to success folder
+2023-05-11 14:06:06 customer_receive_process process end
+2023-05-11 14:06:55 customer_receive_process process start
+2023-05-11 14:06:55 ./Download Exploring process: Done
+2023-05-11 14:06:56 example_Loading_Plan_fail.xlsx Create batch ID: Done
+2023-05-11 14:06:56 example_Loading_Plan_fail.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 14:06:56 sheet_Update Plan Cleaning process: Done
+2023-05-11 14:06:57 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 14:06:57 example_Loading_Plan_fail.xlsx_sheet_PF Reading process: Done
+2023-05-11 14:06:57 sheet_PF Cleaning process: Done
+2023-05-11 14:06:57 Process_example_Loading_Plan_fail.xlsx_sheet_PF Error: "['Material'] not in index"
+2023-05-11 14:06:58 Batch_no_7bbf91ea-512c-43d4-a7f6-004a53ce10b1 Delete row process: Done
+2023-05-11 14:06:58 Process_example_Loading_Plan_fail.xlsx_fail mave example_Loading_Plan_fail.xlsx to fail folder
+2023-05-11 14:06:58 customer_receive_process process end
+2023-05-11 14:07:24 customer_receive_process process start
+2023-05-11 14:07:24 ./Download Exploring process: Done
+2023-05-11 14:07:25 example_Loading Plan.xlsx Create batch ID: Done
+2023-05-11 14:07:25 example_Loading Plan.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 14:07:25 sheet_Update Plan Cleaning process: Done
+2023-05-11 14:07:26 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 14:07:27 example_Loading Plan.xlsx_sheet_PF Reading process: Done
+2023-05-11 14:07:27 sheet_PF Cleaning process: Done
+2023-05-11 14:07:28 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 14:07:28 Process_example_Loading Plan.xlsx_success move example_Loading Plan.xlsx to success folder
+2023-05-11 14:07:28 customer_receive_process process end
+2023-05-11 14:12:13 customer_receive_process process start
+2023-05-11 14:12:13 ./Download Exploring process: Done
+2023-05-11 14:12:14 example_Loading Plan.xlsx Error create batch ID: (pyodbc.ProgrammingError) ('42S22', "[42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Invalid column name 'batch_noaa'. (207) (SQLExecDirectW); [42S22] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Statement(s) could not be prepared. (8180)")
+[SQL: INSERT INTO rcv_customer_batch (batch_noaa) VALUES (?)]
+[parameters: (UUID('ff7b164a-c719-44bd-b4b2-bb390b6d37f5'),)]
+(Background on this error at: https://sqlalche.me/e/20/f405)
+2023-05-11 14:12:14 Process_example_Loading Plan.xlsx_fail mave example_Loading Plan.xlsx to fail folder
+2023-05-11 14:12:14 customer_receive_process process end
+2023-05-11 15:03:53 customer_receive_process process start
+2023-05-11 15:03:54 ./Download Exploring process: Done
+2023-05-11 15:03:54 example_Loading_Plan_success.xlsx Create batch ID: Done
+2023-05-11 15:03:55 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 15:03:55 sheet_Update Plan Cleaning process: Done
+2023-05-11 15:03:55 Process_example_Loading_Plan_success.xlsx_sheet_Update Plan Error: 'mars_default_value'
+2023-05-11 15:03:56 Batch_no_5927cba3-2edf-4d5b-a6b4-71a8cea4f393 Delete row process: Done
+2023-05-11 15:03:56 Process_example_Loading_Plan_success.xlsx_fail mave example_Loading_Plan_success.xlsx to fail folder
+2023-05-11 15:03:56 customer_receive_process process end
+2023-05-11 15:05:05 customer_receive_process process start
+2023-05-11 15:05:05 ./Download Exploring process: Done
+2023-05-11 15:05:05 ./Download Do not have any file to read
+2023-05-11 15:05:05 customer_receive_process process end
+2023-05-11 15:05:58 customer_receive_process process start
+2023-05-11 15:05:59 ./Download Exploring process: Done
+2023-05-11 15:05:59 example_Loading_Plan_success.xlsx Create batch ID: Done
+2023-05-11 15:06:00 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 15:06:00 sheet_Update Plan Cleaning process: Done
+2023-05-11 15:06:00 Process_example_Loading_Plan_success.xlsx_sheet_Update Plan Error: 'mars_default_value'
+2023-05-11 15:06:01 Batch_no_4a02392a-f962-4df5-a4a3-1f1c692215c0 Delete row process: Done
+2023-05-11 15:06:01 Process_example_Loading_Plan_success.xlsx_fail mave example_Loading_Plan_success.xlsx to fail folder
+2023-05-11 15:06:01 customer_receive_process process end
+2023-05-11 15:17:32 customer_receive_process process start
+2023-05-11 15:17:32 ./Download Exploring process: Done
+2023-05-11 15:17:32 ./Download Do not have any file to read
+2023-05-11 15:17:32 customer_receive_process process end
+2023-05-11 15:17:43 customer_receive_process process start
+2023-05-11 15:17:44 ./Download Exploring process: Done
+2023-05-11 15:17:44 example_Loading_Plan_success.xlsx Create batch ID: Done
+2023-05-11 15:17:45 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 15:17:45 sheet_Update Plan Cleaning process: Done
+2023-05-11 15:19:02 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 15:19:03 example_Loading_Plan_success.xlsx_sheet_PF Reading process: Done
+2023-05-11 15:19:03 sheet_PF Cleaning process: Done
+2023-05-11 15:19:28 customer_receive_process process start
+2023-05-11 15:19:28 ./Download Exploring process: Done
+2023-05-11 15:19:29 example_Loading_Plan_success.xlsx Create batch ID: Done
+2023-05-11 15:19:29 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 15:19:29 sheet_Update Plan Cleaning process: Done
+2023-05-11 15:19:30 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 15:19:30 example_Loading_Plan_success.xlsx_sheet_PF Reading process: Done
+2023-05-11 15:19:30 sheet_PF Cleaning process: Done
+2023-05-11 15:19:32 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 15:19:32 Process_example_Loading_Plan_success.xlsx_success move example_Loading_Plan_success.xlsx to success folder
+2023-05-11 15:19:32 customer_receive_process process end
+2023-05-11 15:31:55 customer_receive_process process start
+2023-05-11 15:31:55 ./Download Exploring process: Done
+2023-05-11 15:31:56 example_Loading_Plan_success.xlsx Create batch ID: Done
+2023-05-11 15:31:56 example_Loading_Plan_success.xlsx_sheet_Update Plan Reading process: Done
+2023-05-11 15:31:56 sheet_Update Plan Cleaning process: Done
+2023-05-11 15:31:57 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-11 15:31:57 example_Loading_Plan_success.xlsx_sheet_PF Reading process: Done
+2023-05-11 15:31:57 sheet_PF Cleaning process: Done
+2023-05-11 15:31:58 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-11 15:31:58 Process_example_Loading_Plan_success.xlsx_success move example_Loading_Plan_success.xlsx to success folder
+2023-05-11 15:31:58 customer_receive_process process end

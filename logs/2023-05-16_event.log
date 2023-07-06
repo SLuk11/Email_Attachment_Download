@@ -1,0 +1,119 @@
+2023-05-16 13:12:26 customer_receive_process process start
+2023-05-16 13:12:28 ./Download Exploring process: Done
+2023-05-16 13:13:10 Load plan P5W4 adding USA.xlsx Error create batch ID: <built-in function connect> returned a result with an exception set
+2023-05-16 13:13:10 Process_Load plan P5W4 adding USA.xlsx_fail mave Load plan P5W4 adding USA.xlsx to fail folder
+2023-05-16 13:13:11 Loading plan P5W3 adding Mauritius.xlsx Create batch ID: Done
+2023-05-16 13:13:11 Loading plan P5W3 adding Mauritius.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:13:11 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:13:12 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:13:13 Loading plan P5W3 adding Mauritius.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:13:13 sheet_PF Cleaning process: Done
+2023-05-16 13:13:14 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-16 13:13:14 Process_Loading plan P5W3 adding Mauritius.xlsx_success move Loading plan P5W3 adding Mauritius.xlsx to success folder
+2023-05-16 13:13:14 customer_receive_process process end
+2023-05-16 13:18:00 customer_receive_process process start
+2023-05-16 13:18:00 ./Download Exploring process: Done
+2023-05-16 13:18:01 Load plan P5W4 adding USA.xlsx Create batch ID: Done
+2023-05-16 13:18:02 Load plan P5W4 adding USA.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:18:02 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:18:02 Process_Load plan P5W4 adding USA.xlsx_sheet_Update Plan Error: "['container Return - Code', 'Total Case', 'Diff'] not in index"
+2023-05-16 13:18:03 Batch_no_f8997ad7-9445-4d45-8bb4-3e9d86b8af08 Delete row process: Done
+2023-05-16 13:18:03 Process_Load plan P5W4 adding USA.xlsx_fail mave Load plan P5W4 adding USA.xlsx to fail folder
+2023-05-16 13:18:03 customer_receive_process process end
+2023-05-16 13:33:17 customer_receive_process process start
+2023-05-16 13:33:17 ./Download Exploring process: Done
+2023-05-16 13:33:18 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 13:33:19 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:33:19 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:33:21 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:33:21 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:33:21 sheet_PF Cleaning process: Done
+2023-05-16 13:33:21 Process_Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Error: "[' Net weight', '    Net value'] not in index"
+2023-05-16 13:33:22 Batch_no_9bf8aa77-c9cf-4b81-9026-32892f510f1b Delete row process: Done
+2023-05-16 13:33:22 Process_Load plan P5W4 adding USA_edit1.xlsx_fail mave Load plan P5W4 adding USA_edit1.xlsx to fail folder
+2023-05-16 13:33:22 Loading plan P5W3 adding Mauritius.xlsx Create batch ID: Done
+2023-05-16 13:33:23 Loading plan P5W3 adding Mauritius.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:33:23 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:33:24 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:33:24 Loading plan P5W3 adding Mauritius.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:33:24 sheet_PF Cleaning process: Done
+2023-05-16 13:33:26 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-16 13:33:26 Process_Loading plan P5W3 adding Mauritius.xlsx_success move Loading plan P5W3 adding Mauritius.xlsx to success folder
+2023-05-16 13:33:26 customer_receive_process process end
+2023-05-16 13:37:05 customer_receive_process process start
+2023-05-16 13:37:06 ./Download Exploring process: Done
+2023-05-16 13:37:06 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 13:37:07 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:37:07 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:37:09 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:37:09 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:37:09 sheet_PF Cleaning process: Done
+2023-05-16 13:37:09 Process_Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Error: (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '10.0' to data type int. (245) (SQLExecDirectW)")
+[SQL: INSERT INTO rcv_customer_invoice (proforma_inv, order_no, purchase_country, item_no, product_group, product_raw_code, product_description_en, division_code, factory_code, qty, uom, net_weight, gross_weight, weight_unit, volume, volume_unit, exchange_ ... 6408 characters truncated ... ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('8500082233.0', '7617821774.0', 'NZ', '10.0', 'ZTAN', '10234416.0', 'WHI Fav Adt Mxd Jelly MVMS 5x(18x85g)NZ', '51.0', 'TH14', '430.0', 'CS', '3289.5', '3907.84', 'KG', '9960.09', 'CD3', '1.0', '2023-10-05', '10771.5', '7807785332.0', None, '430.0', '1.0', UUID('36782c1d-aa6d-4e97-8836-21e94d52ecba'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082233.0', '7617821774.0', 'NZ', '20.0', 'ZTAN', '10234434.0', 'WHI CIG Bf MVMS 5x(18x85g) NZ2021', '51.0', 'TH14', '288.0', 'CS', '2203.2', '2617.344', 'KG', '6670.944', 'CD3', '1.0', '2023-10-05', '7905.6', '7807785332.0' ... 1970 parameters truncated ... 'CS', '2240.0', '2608.4', 'KG', '5631.2', 'CD3', '1.0', '2023-10-05', '207148.0', '7807786617.0', None, '200.0', '1.0', UUID('36782c1d-aa6d-4e97-8836-21e94d52ecba'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082249.0', '7617821654.0', 'JP', '260.0', 'ZTAN', '10268188.0', 'KWP30 KK AJI 4mix T&Br&K&S 70g*16*10', '51.0', 'TH14', '19.0', 'CS', '212.8', '256.538', 'KG', '534.964', 'CD3', '1.0', '2023-10-05', '21212.36', '7807786617.0', None, '19.0', '1.0', UUID('36782c1d-aa6d-4e97-8836-21e94d52ecba'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH')]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2023-05-16 13:37:10 Batch_no_36782c1d-aa6d-4e97-8836-21e94d52ecba Delete row process: Done
+2023-05-16 13:37:10 Process_Load plan P5W4 adding USA_edit1.xlsx_fail mave Load plan P5W4 adding USA_edit1.xlsx to fail folder
+2023-05-16 13:37:10 customer_receive_process process end
+2023-05-16 13:41:31 customer_receive_process process start
+2023-05-16 13:41:32 ./Download Exploring process: [Errno 13] Permission denied: './Download/~$Load plan P5W4 adding USA_edit1.xlsx'
+2023-05-16 13:41:55 customer_receive_process process start
+2023-05-16 13:41:56 ./Download Exploring process: Done
+2023-05-16 13:41:57 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 13:42:02 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:42:02 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:42:15 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:42:16 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:42:16 sheet_PF Cleaning process: Done
+2023-05-16 13:46:12 customer_receive_process process start
+2023-05-16 13:46:13 ./Download Exploring process: Done
+2023-05-16 13:46:14 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 13:46:19 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:46:19 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:47:36 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:47:37 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:47:37 sheet_PF Cleaning process: Done
+2023-05-16 13:48:22 Process_Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Error: (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '10.0' to data type int. (245) (SQLExecDirectW)")
+[SQL: INSERT INTO rcv_customer_invoice (proforma_inv, order_no, purchase_country, item_no, product_group, product_raw_code, product_description_en, division_code, factory_code, qty, uom, net_weight, gross_weight, weight_unit, volume, volume_unit, exchange_ ... 6408 characters truncated ... ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('8500082233.0', '7617821774.0', 'NZ', '10.0', 'ZTAN', '10234416.0', 'WHI Fav Adt Mxd Jelly MVMS 5x(18x85g)NZ', '51.0', 'TH14', '430.0', 'CS', '3289.5', '3907.84', 'KG', '9960.09', 'CD3', '1.0', '2023-10-05', '10771.5', '7807785332.0', None, '430.0', '1.0', UUID('e682e998-444a-4eda-a7a3-99b35d0f847d'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082233.0', '7617821774.0', 'NZ', '20.0', 'ZTAN', '10234434.0', 'WHI CIG Bf MVMS 5x(18x85g) NZ2021', '51.0', 'TH14', '288.0', 'CS', '2203.2', '2617.344', 'KG', '6670.944', 'CD3', '1.0', '2023-10-05', '7905.6', '7807785332.0' ... 1970 parameters truncated ... 'CS', '2240.0', '2608.4', 'KG', '5631.2', 'CD3', '1.0', '2023-10-05', '207148.0', '7807786617.0', None, '200.0', '1.0', UUID('e682e998-444a-4eda-a7a3-99b35d0f847d'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082249.0', '7617821654.0', 'JP', '260.0', 'ZTAN', '10268188.0', 'KWP30 KK AJI 4mix T&Br&K&S 70g*16*10', '51.0', 'TH14', '19.0', 'CS', '212.8', '256.538', 'KG', '534.964', 'CD3', '1.0', '2023-10-05', '21212.36', '7807786617.0', None, '19.0', '1.0', UUID('e682e998-444a-4eda-a7a3-99b35d0f847d'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH')]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2023-05-16 13:48:23 Batch_no_e682e998-444a-4eda-a7a3-99b35d0f847d Delete row process: Done
+2023-05-16 13:48:23 Process_Load plan P5W4 adding USA_edit1.xlsx_fail mave Load plan P5W4 adding USA_edit1.xlsx to fail folder
+2023-05-16 13:48:23 customer_receive_process process end
+2023-05-16 13:50:44 customer_receive_process process start
+2023-05-16 13:50:45 ./Download Exploring process: Done
+2023-05-16 13:50:45 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 13:50:50 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 13:50:50 sheet_Update Plan Cleaning process: Done
+2023-05-16 13:50:58 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 13:50:59 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 13:50:59 sheet_PF Cleaning process: Done
+2023-05-16 13:51:07 Process_Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Error: (pyodbc.DataError) ('22018', "[22018] [Microsoft][ODBC Driver 17 for SQL Server][SQL Server]Conversion failed when converting the varchar value '10.0' to data type int. (245) (SQLExecDirectW)")
+[SQL: INSERT INTO rcv_customer_invoice (proforma_inv, order_no, purchase_country, item_no, product_group, product_raw_code, product_description_en, division_code, factory_code, qty, uom, net_weight, gross_weight, weight_unit, volume, volume_unit, exchange_ ... 6408 characters truncated ... ?, ?, ?), (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: ('8500082233.0', '7617821774.0', 'NZ', '10.0', 'ZTAN', '10234416.0', 'WHI Fav Adt Mxd Jelly MVMS 5x(18x85g)NZ', '51.0', 'TH14', '430.0', 'CS', '3289.5', '3907.84', 'KG', '9960.09', 'CD3', '1.0', '2023-10-05', '10771.5', '7807785332.0', None, '430.0', '1.0', UUID('69b54f4c-ff78-4892-9a9a-6c4fba62726e'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082233.0', '7617821774.0', 'NZ', '20.0', 'ZTAN', '10234434.0', 'WHI CIG Bf MVMS 5x(18x85g) NZ2021', '51.0', 'TH14', '288.0', 'CS', '2203.2', '2617.344', 'KG', '6670.944', 'CD3', '1.0', '2023-10-05', '7905.6', '7807785332.0' ... 1970 parameters truncated ... 'CS', '2240.0', '2608.4', 'KG', '5631.2', 'CD3', '1.0', '2023-10-05', '207148.0', '7807786617.0', None, '200.0', '1.0', UUID('69b54f4c-ff78-4892-9a9a-6c4fba62726e'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH', '8500082249.0', '7617821654.0', 'JP', '260.0', 'ZTAN', '10268188.0', 'KWP30 KK AJI 4mix T&Br&K&S 70g*16*10', '51.0', 'TH14', '19.0', 'CS', '212.8', '256.538', 'KG', '534.964', 'CD3', '1.0', '2023-10-05', '21212.36', '7807786617.0', None, '19.0', '1.0', UUID('69b54f4c-ff78-4892-9a9a-6c4fba62726e'), 'MARS', 'MARS PETCARE  (THAILAND) CO.,LTD.', '3011910382', '0001', '0', 'TH')]
+(Background on this error at: https://sqlalche.me/e/20/9h9h)
+2023-05-16 13:51:09 Batch_no_69b54f4c-ff78-4892-9a9a-6c4fba62726e Delete row process: Done
+2023-05-16 13:51:09 Process_Load plan P5W4 adding USA_edit1.xlsx_fail mave Load plan P5W4 adding USA_edit1.xlsx to fail folder
+2023-05-16 13:51:09 customer_receive_process process end
+2023-05-16 14:11:16 customer_receive_process process start
+2023-05-16 14:11:17 ./Download Exploring process: Done
+2023-05-16 14:11:18 Loading plan P5W3 adding Mauritius.xlsx Create batch ID: Done
+2023-05-16 14:11:19 Loading plan P5W3 adding Mauritius.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 14:11:19 sheet_Update Plan Cleaning process: Done
+2023-05-16 14:11:26 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 14:11:27 Loading plan P5W3 adding Mauritius.xlsx_sheet_PF Reading process: Done
+2023-05-16 14:11:27 sheet_PF Cleaning process: Done
+2023-05-16 14:11:36 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-16 14:11:36 Process_Loading plan P5W3 adding Mauritius.xlsx_success move Loading plan P5W3 adding Mauritius.xlsx to success folder
+2023-05-16 14:11:36 customer_receive_process process end
+2023-05-16 14:14:00 customer_receive_process process start
+2023-05-16 14:14:01 ./Download Exploring process: Done
+2023-05-16 14:14:02 Load plan P5W4 adding USA_edit1.xlsx Create batch ID: Done
+2023-05-16 14:14:07 Load plan P5W4 adding USA_edit1.xlsx_sheet_Update Plan Reading process: Done
+2023-05-16 14:14:07 sheet_Update Plan Cleaning process: Done
+2023-05-16 14:14:10 SQL_rcv_customer_booking_table Insert to SQL process: Done
+2023-05-16 14:14:11 Load plan P5W4 adding USA_edit1.xlsx_sheet_PF Reading process: Done
+2023-05-16 14:14:11 sheet_PF Cleaning process: Done
+2023-05-16 14:14:27 SQL_rcv_customer_invoice_table Insert to SQL process: Done
+2023-05-16 14:14:27 Process_Load plan P5W4 adding USA_edit1.xlsx_success move Load plan P5W4 adding USA_edit1.xlsx to success folder
+2023-05-16 14:14:27 customer_receive_process process end
