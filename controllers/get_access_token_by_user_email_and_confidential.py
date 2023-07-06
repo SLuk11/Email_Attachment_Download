@@ -21,4 +21,4 @@ def get_access_token(tenant_id, client_id, client_secret, scope):
         "Authorization": f"Bearer {access_token}",
         "ContentType": "application/json"
     }
-    return access_token
+    return access_token, headers
