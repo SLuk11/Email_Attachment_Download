@@ -18,13 +18,13 @@ if __name__ == '__main__':
     controllers.dir_check(config.shipping_mail['downloads_dir'], config.shipping_mail['data_dir'])
 
     ## read email and Excel file
-    attachment_data = controllers.get_email_attachment(config.step_app['tenant_id']
-                                                       , config.step_app['app_id']
-                                                       , config.step_app['app_secret']
-                                                       , config.step_app['app_scope']
-                                                       , config.step_app['mail_user']
-                                                       , config.step_app['api_endpoint']
-                                                       , config.step_app['request_params']
+    attachment_data = controllers.get_email_attachment(config.Azure_app['tenant_id']
+                                                       , config.Azure_app['app_id']
+                                                       , config.Azure_app['app_secret']
+                                                       , config.Azure_app['app_scope']
+                                                       , config.Azure_app['mail_user']
+                                                       , config.Azure_app['api_endpoint']
+                                                       , config.Azure_app['request_params']
                                                        , config.shipping_mail['sender_email_lsit']
                                                        , config.shipping_mail['subject_key']
                                                        , config.shipping_mail['downloads_dir'])
